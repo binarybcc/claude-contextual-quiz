@@ -1,0 +1,27 @@
+{
+  "terms": {
+    "Branch": {
+      "correct": 5,
+      "incorrect": 1,
+      "mastery": 4,
+      "lastSeen": "2025-11-01",
+      "category": "git"
+    },
+    "useState": {
+      "correct": 2,
+      "incorrect": 3,
+      "mastery": 1,
+      "lastSeen": "2025-11-01",
+      "category": "react"
+    }
+  },
+  "stats": {
+    "totalQuestions": 50,
+    "totalCorrect": 42,
+    "streak": 3,
+    "lastQuiz": "2025-11-01",
+    "sessionCount": 10
+  },
+  "created": "2025-11-01",
+  "version": "1.0"
+}

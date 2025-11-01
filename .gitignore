@@ -1,0 +1,12 @@
+# User progress files (personal data)
+quiz-progress.json
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/

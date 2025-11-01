@@ -1,0 +1,363 @@
+{
+  "git": [
+    {
+      "term": "Branch",
+      "definition": "A parallel timeline where you can try changes without affecting the main code",
+      "example": "git checkout -b feature/search creates a new branch",
+      "analogy": "Like a 'Choose Your Own Adventure' book - you can always go back to the main story",
+      "choices": [
+        "A parallel timeline for trying changes safely",
+        "A save point in your code",
+        "A way to delete code",
+        "The main version of your code"
+      ],
+      "correct": 0
+    },
+    {
+      "term": "Commit",
+      "definition": "A save point for your code at a specific moment in time",
+      "example": "git commit -m 'Add PDF optimization' creates a save point",
+      "analogy": "Like saving your game - you can always load this exact state later",
+      "choices": [
+        "Upload code to GitHub",
+        "Create a save point of current code",
+        "Create a new branch",
+        "Delete old code"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Merge",
+      "definition": "Combine changes from one branch into another",
+      "example": "git merge feature/search brings your experiment into main",
+      "analogy": "Like combining two versions of a document into one final version",
+      "choices": [
+        "Delete a branch",
+        "Create a new branch",
+        "Combine two branches together",
+        "Upload code to server"
+      ],
+      "correct": 2
+    },
+    {
+      "term": "Pull",
+      "definition": "Download and merge changes from the remote repository (like GitHub) to your local computer",
+      "example": "git pull gets the latest code from your team",
+      "analogy": "Like downloading the newest version of a shared Google Doc",
+      "choices": [
+        "Upload your code to GitHub",
+        "Create a new branch",
+        "Download latest code from remote",
+        "Delete local changes"
+      ],
+      "correct": 2
+    },
+    {
+      "term": "Push",
+      "definition": "Upload your local commits to the remote repository (like GitHub)",
+      "example": "git push shares your changes with the team",
+      "analogy": "Like uploading your work to Dropbox so others can see it",
+      "choices": [
+        "Download code from GitHub",
+        "Upload your commits to remote",
+        "Create a save point",
+        "Merge two branches"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Origin",
+      "definition": "The default name for the remote repository (usually on GitHub)",
+      "example": "origin/main refers to the main branch on GitHub",
+      "analogy": "Like the nickname for 'the cloud server where everyone's code lives'",
+      "choices": [
+        "Your local computer",
+        "The remote server (like GitHub)",
+        "The main branch",
+        "The first commit"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Rebase",
+      "definition": "Move your branch to start from a newer point, replaying your changes on top",
+      "example": "git rebase main moves your feature branch to the latest main",
+      "analogy": "Like copying your edits onto the newest version of a document",
+      "choices": [
+        "Delete a branch",
+        "Move branch to start from newer code",
+        "Create a new commit",
+        "Upload to GitHub"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Clone",
+      "definition": "Download a complete copy of a repository from remote to your computer",
+      "example": "git clone [url] downloads the entire project",
+      "analogy": "Like downloading a complete copy of someone's project folder",
+      "choices": [
+        "Upload your code",
+        "Create a branch",
+        "Download a full copy of a repository",
+        "Save your changes"
+      ],
+      "correct": 2
+    }
+  ],
+  "nextjs": [
+    {
+      "term": "Server Component",
+      "definition": "A component that runs on the server and sends HTML to the browser (faster, can access databases)",
+      "example": "async function Page() runs on server, can fetch data directly",
+      "analogy": "Like a chef preparing food in the kitchen before bringing it to your table",
+      "choices": [
+        "Runs in the browser only",
+        "Runs on server, sends HTML",
+        "A database",
+        "A CSS file"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Client Component",
+      "definition": "A component that runs in the browser and can be interactive (needs 'use client' at top)",
+      "example": "'use client' makes a component interactive with onClick, useState, etc.",
+      "analogy": "Like controls on your TV remote - they work on your side",
+      "choices": [
+        "Runs on server only",
+        "Runs in browser, can be interactive",
+        "A type of database",
+        "A CSS framework"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Route",
+      "definition": "A URL path in your app that shows a specific page",
+      "example": "app/about/page.tsx creates the /about route",
+      "analogy": "Like different rooms in a house - each URL is a different room",
+      "choices": [
+        "A database query",
+        "A URL path that shows a page",
+        "A CSS class",
+        "A server"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "API Route",
+      "definition": "A backend endpoint that handles data requests (like fetching or saving)",
+      "example": "app/api/editions/route.ts handles /api/editions requests",
+      "analogy": "Like a waiter taking your order to the kitchen and bringing back food",
+      "choices": [
+        "A frontend page",
+        "A backend endpoint for data",
+        "A CSS file",
+        "A database"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Middleware",
+      "definition": "Code that runs before a request is completed (useful for auth, redirects)",
+      "example": "middleware.ts can check if user is logged in before showing pages",
+      "analogy": "Like a security guard checking IDs before letting people in",
+      "choices": [
+        "A database",
+        "Code that runs before requests",
+        "A CSS framework",
+        "A frontend component"
+      ],
+      "correct": 1
+    }
+  ],
+  "terminal": [
+    {
+      "term": "ls",
+      "definition": "List files and folders in the current directory",
+      "example": "ls shows what's in this folder",
+      "analogy": "Like opening a folder to see what's inside",
+      "choices": [
+        "Delete files",
+        "List files in directory",
+        "Change directory",
+        "Create a file"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "cd",
+      "definition": "Change directory - move to a different folder",
+      "example": "cd Desktop moves you to the Desktop folder",
+      "analogy": "Like walking into a different room",
+      "choices": [
+        "Create directory",
+        "Delete directory",
+        "Change directory",
+        "List directory"
+      ],
+      "correct": 2
+    },
+    {
+      "term": "pwd",
+      "definition": "Print working directory - show where you currently are",
+      "example": "pwd shows /Users/user/Desktop",
+      "analogy": "Like asking 'where am I right now?'",
+      "choices": [
+        "Delete current folder",
+        "Show current location",
+        "Create a folder",
+        "List files"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "mkdir",
+      "definition": "Make directory - create a new folder",
+      "example": "mkdir projects creates a 'projects' folder",
+      "analogy": "Like creating a new folder in Finder",
+      "choices": [
+        "Delete a directory",
+        "List directories",
+        "Create a new directory",
+        "Move to a directory"
+      ],
+      "correct": 2
+    },
+    {
+      "term": "rm",
+      "definition": "Remove - delete a file (use -r for folders, BE CAREFUL)",
+      "example": "rm file.txt deletes the file permanently",
+      "analogy": "Like moving something to trash, but emptying trash immediately",
+      "choices": [
+        "Rename a file",
+        "Delete a file",
+        "Move a file",
+        "Create a file"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "grep",
+      "definition": "Search for text inside files",
+      "example": "grep 'TODO' *.js finds all TODOs in JavaScript files",
+      "analogy": "Like using Ctrl+F to find text, but across many files",
+      "choices": [
+        "Delete text from files",
+        "Search for text in files",
+        "Replace text in files",
+        "Create new files"
+      ],
+      "correct": 1
+    }
+  ],
+  "react": [
+    {
+      "term": "useState",
+      "definition": "A hook that lets you add state (changeable data) to a component",
+      "example": "const [count, setCount] = useState(0) creates a counter",
+      "analogy": "Like a variable that remembers its value and re-renders when it changes",
+      "choices": [
+        "Fetch data from server",
+        "Add changeable data to component",
+        "Style a component",
+        "Navigate to new page"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "useEffect",
+      "definition": "A hook that runs code when component loads or when dependencies change",
+      "example": "useEffect(() => { fetchData() }, []) runs once on load",
+      "analogy": "Like an automatic trigger that says 'when X happens, do Y'",
+      "choices": [
+        "Add state to component",
+        "Run code at specific times",
+        "Create a component",
+        "Style a component"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Props",
+      "definition": "Data passed from a parent component to a child component",
+      "example": "<Button text='Click me' /> passes text as a prop",
+      "analogy": "Like handing someone instructions or ingredients",
+      "choices": [
+        "CSS styles",
+        "Data passed to components",
+        "Database queries",
+        "Server endpoints"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Component",
+      "definition": "A reusable piece of UI (like a button, card, or page section)",
+      "example": "function Button() { return <button>Click</button> }",
+      "analogy": "Like a LEGO brick - build once, use many times",
+      "choices": [
+        "A database",
+        "A reusable piece of UI",
+        "A server endpoint",
+        "A CSS file"
+      ],
+      "correct": 1
+    }
+  ],
+  "general": [
+    {
+      "term": "API",
+      "definition": "Application Programming Interface - a way for programs to talk to each other",
+      "example": "/api/editions endpoint returns edition data as JSON",
+      "analogy": "Like a waiter - you tell them what you want, they bring it from the kitchen",
+      "choices": [
+        "A type of database",
+        "A way for programs to communicate",
+        "A CSS framework",
+        "A testing tool"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation - a format for storing and sending data",
+      "example": "{\"name\": \"John\", \"age\": 30} is JSON",
+      "analogy": "Like a labeled box: 'name: John, age: 30'",
+      "choices": [
+        "A programming language",
+        "A data format for storing info",
+        "A database",
+        "A server"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Environment Variable",
+      "definition": "A secret or config value stored outside your code (like in .env file)",
+      "example": "PDF_DIRECTORY=/Users/user/Desktop/2025 in .env.local",
+      "analogy": "Like a settings file that you don't commit to git",
+      "choices": [
+        "A type of variable in code",
+        "A config value stored outside code",
+        "A CSS variable",
+        "A database field"
+      ],
+      "correct": 1
+    },
+    {
+      "term": "Cache",
+      "definition": "Stored copy of data to make future requests faster",
+      "example": "Browser caches images so they don't re-download",
+      "analogy": "Like keeping leftovers in the fridge instead of cooking again",
+      "choices": [
+        "Delete old data",
+        "Store data for faster access",
+        "Upload data to server",
+        "Encrypt data"
+      ],
+      "correct": 1
+    }
+  ]
+}
