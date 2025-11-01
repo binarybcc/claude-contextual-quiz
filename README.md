@@ -113,6 +113,8 @@ Each term includes:
 
 The difference is context. When you learn a term immediately after using it, your brain creates stronger associations.
 
+**📖 Deep dive:** See [LEARNING-PHILOSOPHY.md](LEARNING-PHILOSOPHY.md) for detailed comparison with classroom learning and why "colleague trivia" beats traditional teaching.
+
 ## Expanding the System
 
 **Want to add your own terms?** Edit `quiz-terms.json`:
